@@ -1,8 +1,12 @@
 var list = $('ul').html();
+alert("about to double");
 $('ul').append(list);
+
+alert("about to add text");
 
 var list_text = $('ul').text();
 $('ul').append(list_text);
+
 
 $('ul').append("<h1>" + list_text + "</h1>");
 
